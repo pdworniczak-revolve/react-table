@@ -18,6 +18,12 @@ The core column options `width`, `minWidth` and `maxWidth` are used to calculate
 - `disableResizing: Bool`
   - Defaults to `false`
   - When set to `true`, resizing is disabled for this column
+- `autoResetResize: Boolean`
+  - Defaults to `true`
+  - When `true`, the `resize` state will automatically reset if any of the following conditions are met:
+    - `data` is changed
+  - To disable, set to `false`
+  - For more information see the FAQ ["How do I stop my table state from automatically resetting when my data changes?"](../faq#how-do-i-stop-my-table-state-from-automatically-resetting-when-my-data-changes)
 
 ### Header Properties
 
