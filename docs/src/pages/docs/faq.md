@@ -115,6 +115,7 @@ useTable({
   autoResetSortBy: !skipPageResetRef.current,
   autoResetFilters: !skipPageResetRef.current,
   autoResetRowState: !skipPageResetRef.current,
+  autoResetResize: !skipPageResetRef.current,
 })
 ```
 
